@@ -26,3 +26,4 @@ env/
 
 # personal
 links.txt
+__pycache__/
