@@ -1,0 +1,17 @@
+[project]
+name = "groundtruthhackathon"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dotenv>=0.9.9",
+    "fastapi>=0.123.5",
+    "langchain>=1.1.0",
+    "langchain-community>=0.4.1",
+    "langchain-core>=1.1.0",
+    "langchain-groq>=1.1.0",
+    "pydantic>=2.12.5",
+    "python-multipart>=0.0.20",
+    "uvicorn>=0.38.0",
+]
