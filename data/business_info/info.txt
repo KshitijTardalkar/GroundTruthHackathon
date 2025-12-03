@@ -1,0 +1,208 @@
+GroundTruth Coffee - Business Information
+
+ABOUT US:
+GroundTruth Coffee is a premium coffee shop chain focused on personalized customer service and quality beverages. We use AI-powered systems to remember customer preferences and provide tailored recommendations.
+
+LOCATIONS:
+
+Downtown Location
+Address: 123 Main Street, Downtown
+Hours: 6 AM - 10 PM Daily
+Features: Main flagship store, largest seating area (80 seats), free high-speed WiFi, outdoor patio, meeting rooms available, drive-thru
+Distance: Typically 2-3 blocks from downtown offices
+Parking: Street parking and nearby garage ($5 flat rate)
+Popular Times: 8-9 AM (morning rush), 12-1 PM (lunch), 3-4 PM (afternoon coffee)
+Phone: (555) 123-4567
+
+University Avenue Location
+Address: 456 College Boulevard, near Campus
+Hours: 7 AM - 9 PM Daily
+Features: Student-friendly atmosphere, study tables, charging stations, quiet zones, group seating
+Distance: 5 minute walk from main campus
+Parking: Bike racks available, limited street parking
+Popular Times: 10 AM - 2 PM (between classes), 7-9 PM (evening study sessions)
+Phone: (555) 234-5678
+Special: 15% student discount with valid ID
+
+Mall Location
+Address: 789 Shopping Plaza, Level 2
+Hours: 10 AM - 8 PM Daily (9 PM on weekends)
+Features: Family-friendly, kids menu available, grab-and-go options, gift shop
+Distance: Located in main shopping district
+Parking: Free mall parking (3 hours)
+Popular Times: 2-5 PM (shopping breaks), weekends busiest
+Phone: (555) 345-6789
+
+Airport Terminal Location
+Address: Terminal B, Gate B15
+Hours: 5 AM - 11 PM Daily
+Features: Quick service, grab-and-go items, mobile order pickup, limited seating
+Distance: Inside security checkpoint
+Parking: Airport parking applies
+Popular Times: 6-8 AM (early flights), 4-6 PM (evening departures)
+Phone: (555) 456-7890
+Special: Pre-order through app for pickup before your flight
+
+MENU:
+
+Hot Beverages:
+- Hot Cocoa: Rich chocolate drink, customizable milk options ($4.50)
+- Caramel Macchiato: Espresso with vanilla and caramel ($5.25)
+- Vanilla Latte: Smooth espresso with vanilla syrup ($4.75)
+- Cappuccino: Classic Italian espresso drink ($4.25)
+- Americano: Bold espresso with hot water ($3.75)
+- Flat White: Velvety microfoam latte ($4.50)
+- Mocha: Chocolate and espresso blend ($5.00)
+
+Cold Beverages:
+- Iced Americano: Espresso over ice ($4.00)
+- Cold Brew: Smooth, less acidic coffee ($4.50)
+- Iced Latte: Espresso with cold milk over ice ($4.75)
+- Frappuccino: Blended ice coffee drinks ($5.50)
+- Iced Mocha: Chocolate espresso over ice ($5.25)
+- Seasonal Smoothies: Fruit-based, changes quarterly ($5.75)
+
+Milk Options (all drinks):
+- Regular 2% Milk (default, no charge)
+- Oat Milk (+$0.75)
+- Almond Milk (+$0.75)
+- Soy Milk (+$0.75)
+- Coconut Milk (+$0.75)
+- Whole Milk (no charge)
+- Skim Milk (no charge)
+
+Customizations:
+- Extra shot of espresso (+$1.00)
+- Flavor syrups: Vanilla, Caramel, Hazelnut, Peppermint (+$0.50 each)
+- Extra whipped cream (free)
+- Light ice, no ice, extra ice (free)
+- Decaf option (free)
+- Temperature adjustments: Extra hot, warm, iced (free)
+
+Food Menu:
+- Blueberry Muffins: Fresh baked daily ($3.50)
+- Croissants: Butter or chocolate ($3.75)
+- Bagels: Plain, everything, sesame with cream cheese ($4.00)
+- Breakfast Sandwiches: Egg, cheese, choice of meat ($6.50)
+- Cookies: Chocolate chip, oatmeal raisin, white chocolate macadamia ($2.50)
+- Brownies: Fudge or cheesecake swirl ($3.00)
+- Seasonal Pastries: Changes monthly ($4.00)
+- Yogurt Parfait: Greek yogurt with granola and berries ($5.50)
+
+LOYALTY PROGRAM:
+
+How It Works:
+Earn 1 point for every dollar spent. Points never expire. Use points for free drinks and food.
+
+Bronze Tier (Free to Join):
+- Earn: 1x points (1 point per dollar)
+- Benefits: Birthday free drink, early access to app features
+- Rewards: 50 points = free drink, 25 points = free pastry
+
+Silver Tier (Unlock at $200 total spend):
+- Earn: 1x points
+- Benefits: 5% off all iced beverages, birthday free drink plus free pastry, surprise seasonal treats
+- Rewards: Same redemption as Bronze
+- Special: Monthly double-points days
+
+Gold Tier (Unlock at $500 total spend):
+- Earn: 1.5x points (earn 50% faster)
+- Benefits: 10% off all hot beverages, free pastry coupon monthly, priority customer service, early access to new menu items
+- Rewards: 40 points = free drink, 20 points = free pastry
+- Special: Quarterly exclusive tasting events
+
+Platinum Tier (Unlock at $1000 total spend):
+- Earn: 2x points (double speed)
+- Benefits: 15% off ALL drinks, one free drink per month automatically, free birthday cake, VIP event invitations, dedicated support line
+- Rewards: 30 points = free drink, 15 points = free pastry
+- Special: Annual members-only party, bring a guest free drink monthly
+
+SERVICES:
+
+Mobile Ordering:
+- Order ahead through GroundTruth Coffee app (iOS and Android)
+- Skip the line with pickup shelves at all locations
+- Save favorite orders for one-tap reordering
+- Track order preparation in real-time
+- Payment through app (Apple Pay, Google Pay, credit cards accepted)
+
+Delivery:
+- Available through DoorDash, Uber Eats, Grubhub
+- Delivery radius: 5 miles from each location
+- Delivery fee: $2.99-$5.99 depending on distance
+- Free delivery for orders over $20 on our app
+
+Catering:
+- Minimum 10 people
+- Coffee carafes, box of joe, pastry platters, sandwich trays
+- 24 hour advance notice required
+- Corporate accounts available with billing
+- Contact: catering@groundtruthcoffee.com
+
+Gift Cards:
+- Available in-store and online ($10-$500)
+- Physical cards or digital delivery
+- Never expire, no fees
+- Corporate bulk orders available (50+ cards, 10% bonus value)
+- Check balance online or in-app
+
+Other Services:
+- Free WiFi at all locations (password: groundtruth2024)
+- Meeting room reservations (Downtown location, free with $20 minimum purchase)
+- Coffee subscription: $50/month for 20 drinks
+- Merchandise: Mugs, tumblers, t-shirts, beans for home brewing
+
+CURRENT PROMOTIONS:
+
+Daily Specials:
+- Monday: Buy one get one 50% off all hot drinks (3-5 PM)
+- Tuesday: $1 pastry with any drink purchase
+- Wednesday: Double points day for loyalty members
+- Thursday: $4 Americanos all day
+- Friday: Happy Hour - $2 off Frappuccinos (2-4 PM)
+- Weekend: Free size upgrade on any drink
+
+Seasonal (Winter 2025):
+- Peppermint Mocha: Limited time, $5.50
+- Gingerbread Latte: Holiday special, $5.50
+- Hot Chocolate Flight: Try 3 flavors, $8.00
+- Eggnog Latte: December only, $5.75
+
+POLICIES:
+
+Returns/Refunds:
+- Remakes guaranteed if not satisfied
+- Full refund within 5 minutes of purchase
+- Contact store manager for any issues
+
+Allergen Information:
+- All drinks may contain traces of nuts (almond milk used)
+- Gluten-free pastries available at Downtown and Mall locations
+- Dairy-free options available with plant-based milks
+- Full ingredient lists available on request
+
+Payment Methods:
+- Cash, all major credit cards, Apple Pay, Google Pay
+- GroundTruth app payment
+- Gift cards
+- Corporate accounts for businesses
+
+WiFi Policy:
+- Free for all customers
+- No purchase required but appreciated
+- Bandwidth limits during peak hours
+- Network: GroundTruth_Guest
+
+Contact Information:
+- Customer Service: (555) 100-2000
+- Email: hello@groundtruthcoffee.com
+- Website: www.groundtruthcoffee.com
+- Instagram: @groundtruthcoffee
+- Twitter: @GTCoffee
+
+Hours of Operation:
+Standard hours listed per location above. Holiday hours may vary. Check website for updates.
+
+Employment:
+We're always hiring! Apply at groundtruthcoffee.com/careers
+Benefits: Health insurance, 401k match, free drinks during shifts, flexible scheduling

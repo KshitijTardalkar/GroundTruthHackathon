@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>EVA - Login</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                font-family:
+                    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                    sans-serif;
+                background: #0d0d0d;
+                color: #fff;
+                height: 100vh;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .login-container {
+                width: 100%;
+                max-width: 400px;
+                padding: 40px;
+            }
+
+            .logo {
+                text-align: center;
+                margin-bottom: 40px;
+            }
+
+            .logo h1 {
+                font-size: 32px;
+                font-weight: 600;
+                background: linear-gradient(90deg, #10a37f, #1a7f64);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                margin-bottom: 8px;
+            }
+
+            .logo p {
+                color: #8e8ea0;
+                font-size: 14px;
+            }
+
+            .login-box {
+                background: #1a1a1a;
+                border: 1px solid #2d2d2d;
+                border-radius: 12px;
+                padding: 32px;
+            }
+
+            .form-group {
+                margin-bottom: 20px;
+            }
+
+            label {
+                display: block;
+                margin-bottom: 8px;
+                font-size: 14px;
+                color: #ececf1;
+                font-weight: 500;
+            }
+
+            input {
+                width: 100%;
+                padding: 12px;
+                background: #2d2d2d;
+                border: 1px solid #404040;
+                border-radius: 8px;
+                color: #fff;
+                font-size: 14px;
+                outline: none;
+                transition: border 0.2s;
+            }
+
+            input:focus {
+                border-color: #10a37f;
+            }
+
+            .btn {
+                width: 100%;
+                padding: 12px;
+                background: #10a37f;
+                color: white;
+                border: none;
+                border-radius: 8px;
+                font-size: 14px;
+                font-weight: 600;
+                cursor: pointer;
+                transition: background 0.2s;
+            }
+
+            .btn:hover {
+                background: #1a7f64;
+            }
+
+            .btn:disabled {
+                background: #404040;
+                cursor: not-allowed;
+            }
+
+            .divider {
+                text-align: center;
+                margin: 24px 0;
+                color: #8e8ea0;
+                font-size: 13px;
+                position: relative;
+            }
+
+            .divider::before,
+            .divider::after {
+                content: "";
+                position: absolute;
+                top: 50%;
+                width: 40%;
+                height: 1px;
+                background: #2d2d2d;
+            }
+
+            .divider::before {
+                left: 0;
+            }
+            .divider::after {
+                right: 0;
+            }
+
+            .quick-login {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 10px;
+            }
+
+            .quick-btn {
+                padding: 10px;
+                background: #2d2d2d;
+                border: 1px solid #404040;
+                border-radius: 8px;
+                color: #ececf1;
+                font-size: 13px;
+                cursor: pointer;
+                transition: all 0.2s;
+            }
+
+            .quick-btn:hover {
+                background: #353535;
+                border-color: #10a37f;
+            }
+
+            .error {
+                background: #e74c3c22;
+                border: 1px solid #e74c3c;
+                color: #e74c3c;
+                padding: 12px;
+                border-radius: 8px;
+                margin-bottom: 20px;
+                font-size: 14px;
+                display: none;
+            }
+
+            .footer {
+                text-align: center;
+                margin-top: 24px;
+                font-size: 12px;
+                color: #8e8ea0;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="login-container">
+            <div class="logo">
+                <h1>🤖 EVA</h1>
+                <p>GroundTruth Coffee AI Assistant</p>
+            </div>
+
+            <div class="login-box">
+                <div class="error" id="errorMsg"></div>
+
+                <form id="loginForm" onsubmit="handleLogin(event)">
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <input
+                            type="text"
+                            id="username"
+                            placeholder="Enter your username"
+                            autocomplete="username"
+                            required
+                        />
+                    </div>
+
+                    <button type="submit" class="btn" id="loginBtn">
+                        Continue
+                    </button>
+                </form>
+
+                <div class="divider">OR</div>
+
+                <div class="quick-login">
+                    <button class="quick-btn" onclick="quickLogin('john')">
+                        👤 Demo: John
+                    </button>
+                    <button class="quick-btn" onclick="quickLogin('sarah')">
+                        👤 Demo: Sarah
+                    </button>
+                </div>
+            </div>
+
+            <div class="footer">
+                H-002 Customer Experience Automation<br />
+                GroundTruth AI Hackathon 2025
+            </div>
+        </div>
+
+        <script>
+            const API_URL = "http://localhost:8000";
+
+            function handleLogin(event) {
+                event.preventDefault();
+                const username = document
+                    .getElementById("username")
+                    .value.trim();
+                if (username) {
+                    login(username);
+                }
+            }
+
+            function quickLogin(username) {
+                document.getElementById("username").value = username;
+                login(username);
+            }
+
+            async function login(username) {
+                const loginBtn = document.getElementById("loginBtn");
+                const errorMsg = document.getElementById("errorMsg");
+
+                loginBtn.disabled = true;
+                loginBtn.textContent = "Logging in...";
+                errorMsg.style.display = "none";
+
+                try {
+                    // Verify user exists or create
+                    const response = await fetch(`${API_URL}/users`);
+                    const data = await response.json();
+
+                    // Store username in localStorage
+                    localStorage.setItem("eva_username", username);
+                    localStorage.setItem(
+                        "eva_login_time",
+                        new Date().toISOString(),
+                    );
+
+                    // Redirect to chat
+                    window.location.href = "/app";
+                } catch (error) {
+                    errorMsg.textContent =
+                        "⚠️ Connection error. Please try again.";
+                    errorMsg.style.display = "block";
+                    loginBtn.disabled = false;
+                    loginBtn.textContent = "Continue";
+                }
+            }
+
+            // Check if already logged in
+            window.addEventListener("load", () => {
+                const username = localStorage.getItem("eva_username");
+                if (username) {
+                    window.location.href = "/app";
+                }
+            });
+        </script>
+    </body>
+</html>

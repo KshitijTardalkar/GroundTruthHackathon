@@ -9,6 +9,7 @@ __pycache__/
 .venv/
 venv/
 env/
+ENV/
 
 # Environment
 .env
@@ -17,13 +18,18 @@ env/
 # IDE
 .vscode/
 .idea/
+*.swp
+*.swo
 
 # OS
 .DS_Store
+Thumbs.db
+
+# Project specific
+data/chroma_db/
+*.log
 
 # uv
 .uv_cache/
 
-# personal
 links.txt
-__pycache__/

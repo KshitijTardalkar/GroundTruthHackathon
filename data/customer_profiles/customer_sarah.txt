@@ -1,0 +1,35 @@
+Customer Profile: Sarah Johnson
+
+Customer ID: CUST-002
+Loyalty Tier: Silver Member
+Member Since: March 2024
+
+Purchase History:
+- Favorite drink: Iced Americano (ordered 22 times)
+- Also enjoys: Cold Brew, Espresso
+- Typical order time: Afternoon (2-3 PM)
+- Average spend: $18 per week
+
+Preferences:
+- Prefers no sugar or sweeteners
+- Black coffee enthusiast
+- Rarely orders food items
+- Likes to try new seasonal cold drinks
+
+Loyalty Rewards:
+- Current points: 280
+- 5% discount on iced beverages
+- Birthday reward pending (free drink)
+
+Location Preference:
+- Works near University Avenue location
+- Sometimes visits Mall location on weekends
+
+Dietary Restrictions:
+- Vegan (uses only plant-based milk alternatives)
+- Avoids dairy completely
+
+Notes:
+- Appreciates quick service
+- Often orders via mobile app
+- Interested in sustainability initiatives

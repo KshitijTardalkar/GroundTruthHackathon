@@ -1,0 +1,30 @@
+Customer Profile: John Doe
+
+Customer ID: CUST-001
+Loyalty Tier: Gold Member
+Member Since: January 2024
+
+Purchase History:
+- Favorite drink: Hot Cocoa (ordered 15 times)
+- Also enjoys: Caramel Macchiato, Vanilla Latte
+- Typical order time: Morning (8-9 AM)
+- Average spend: $25 per week
+
+Preferences:
+- Prefers oat milk over regular milk
+- Likes extra whipped cream on hot drinks
+- Usually adds a pastry to order (blueberry muffin favorite)
+
+Loyalty Rewards:
+- Current points: 450
+- 10% discount active on all hot beverages
+- Free pastry coupon available (expires Dec 31, 2025)
+
+Location Preference:
+- Frequently visits Downtown Starbucks location
+- Lives/works approximately 2 blocks from Main Street store
+
+Notes:
+- Responsive to seasonal promotions
+- Appreciates personalized service
+- Mentioned feeling cold often in past interactions
